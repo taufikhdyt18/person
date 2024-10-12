@@ -108,5 +108,19 @@ System.out.println("Informasi Awal:");
 ```
 ![image](sst3/ss11.png)
 
+- Output
+```
+Informasi Awal:
+Nama: Antot
+Jenis Kelamin: Laki-laki
+Umur: 18
+
+Nama: Riko
+Jenis Kelamin: Laki-laki
+Umur: 18
+
+```
+![image](sst3/ss12.png)
+
 
 # SELESAI
