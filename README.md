@@ -79,4 +79,34 @@ public int getUmur() {
 ```
 ![image](sst3/ss8.png)
 
-- 
+- Menampilkan informasi person
+```
+public void displayInfo() {
+        System.out.println("Nama: " + nama);
+        System.out.println("Jenis Kelamin: " + jenisKelamin);
+        System.out.println("Umur: " + umur);
+    }
+```
+![image](sst3/ss9.png)
+
+- Main method & membuat 2 objek untuk Anton&Riko
+```
+public static void main(String[] args) {
+        Person2 antot = new Person2("Antot", "Laki-laki", 18);
+        Person2 riko = new Person2("Riko", "Laki-laki", 18);
+```
+![image](sst3/ss10.png)
+
+- menampilkan informasi awal
+```
+System.out.println("Informasi Awal:");
+        antot.displayInfo();
+        System.out.println();
+        riko.displayInfo();
+    }
+}
+```
+![image](sst3/ss11.png)
+
+
+# SELESAI
